@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eid Mubarak - Special Greeting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="stars"></div>
+
+    <div class="card-wrapper" id="main-card">
+        <div class="card-front" id="front-view">
+            <div class="lantern">✨</div>
+            <h2>Ada pesan khusus buat lo...</h2>
+            <button class="open-btn" onclick="bukaUcapan()">Ketuk untuk Buka ✉️</button>
+        </div>
+
+        <div class="card-inside hidden" id="inside-view">
+            <div class="mosque-silhouette">自由</div>
+            <h1 class="glow-text">Selamat Idul Adha<br>1447 H</h1>
+            <hr class="line-divider">
+            <p class="message">
+                "Bukan kambing atau sapinya yang menjadi inti, melainkan keikhlasan dan ketakwaan dalam berbagi. Selamat merayakan hari raya qurban, bro! Semoga berkah melimpah buat lo sekeluarga."
+            </p>
+            <p class="from">- sanz -</p>
+        </div>
+    </div>
+
+    <audio id="backsound" loop>
+        <source src="About you.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
